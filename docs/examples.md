@@ -33,3 +33,4 @@ How to use $window properly:
 var myWindow = $window('url-or-whatever'); //right, returns an object with things to interact with the window or just information ect
 
 /* you can use it like you would with $window, except $window.current is whatever you named the variable and to make the window the active window, just use the active() function
+```
