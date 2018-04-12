@@ -3,7 +3,7 @@
 
 Please note that new things may be discovered.
 
-# Things that may come in handy
+## Things that may come in handy
 ```js
 $prompt('prompt text here', 'text in prompt text box') //displays a prompt message
 $notif('notif text here') //displays a notification bubble on the bottom right
