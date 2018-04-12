@@ -62,3 +62,6 @@ $explorer.exe.Delete($explorer.exe.SelectAll()); // select every file from the c
 $file.format(function(){document.location.reload(true)}) // re-installs windows 93 (thanks domenic)
 $file.delete("/a/") // deletes /a/, messes up a lot of things.
 ```
+
+## Examples:
+This has been moved [here](examples.md)
