@@ -1,5 +1,4 @@
 theme: jekyll-theme-hacker
-baseurl: "docs/"
-exclude: [
- "README.md"
-]
+title: "Windows 93 JavaScript Documentation"
+title_separator: "-"
+name: "darkphoenix10"
