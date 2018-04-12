@@ -1,9 +1,11 @@
-# Windows 93 JavaScript
+Windows 93 JavaScript
+================
 *Created by Domenic Waterdash, Draco, DarkPhoenix10 and 1024x2*
 
 Please note that new things may be discovered.
 
-## Things that may come in handy
+Things that may come in handy
+============
 ```js
 $prompt('prompt text here', 'text in prompt text box') //displays a prompt message
 $notif('notif text here') //displays a notification bubble on the bottom right
@@ -53,7 +55,8 @@ $store.getRaw('desktop/meme.txt') // alternative method to reading files, effect
 $explorer.refresh() // refresh explorer
 $archive('/folder/name')  // put the contents of the folder into a zipped archive that you can download
 ```
-## Malicious:
+Malicious:
+============
 ```js
 system42.data._settings.skin = "TOPKEK"; // changes the iconset to one that doesn't exist which causes all icons to fail loading unless you change the var back to 'w93'
 // arc is now irrelevant.
