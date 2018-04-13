@@ -24,7 +24,7 @@ $window.current.destroy(); // closes the window that's currently being focused o
 $window.current.close(); // same as destroy but with animation
 
 new Audio('/path/to/audio/audio.mp3').play(); // doesn't work with wav files sadly (btw the audio doesn't have to be on the windows 93 website)
-$audio('alert').play() // similar to `new Audio().play()`
+$audio('alert').play() // new Audio().play() but can play windows 93 sounds specified by name
 $boot.VERSION // returns the w93 version
 system42.data._path // returns directories of things (.desktop returns where the desktop is located, .home returns where the users home is and .skin returns the folder the skin is)
 system42.data._selected // returns an array of every shortcut or file selected at that moment
