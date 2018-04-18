@@ -104,7 +104,7 @@ var myWindowWithAMenu = $window({
 
 // this code will result in the image below
 ```
-![The result](result.png)
+![The result](img/result.png)
 
 How to start a file selector:
 ```js
@@ -119,4 +119,9 @@ How to use $alert.progress:
 var progressBar = $alert.progress("body","title") // spawns bar
 progressBar.update(33) // updates the progress and title. takes an integer input 0-100.
 ```
-![Results](progressbar.png)
+![Results](img/progressbar.png)
+Usage of $alert.help:
+```js
+$alert.help("<strong>html</strong>") // works with the same HTML as the previous, but with a white canvas as the background. Also, the title is fixed to 'Help'
+```
+![Result of this](img/helpprogress.png)
