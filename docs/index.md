@@ -24,6 +24,7 @@ $window.current.minimize(); // minimise the window that's currently being focuse
 $window.current.restore(); // if the window that's currently being used has been minimised, open it back up again.
 $window.current.destroy(); // closes the window that's currently being focused on (no animation)
 $window.current.close(); // same as destroy but with animation
+$loader.script("http://scriptu.rl/dot.js") // loads a script, similar to $exe("js ")
 
 new Audio('/path/to/audio/audio.mp3').play(); // doesn't work with wav files sadly (btw the audio doesn't have to be on the windows 93 website)
 $audio('alert').play() // new Audio().play() but can play windows 93 sounds specified by name
