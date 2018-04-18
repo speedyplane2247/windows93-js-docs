@@ -118,3 +118,5 @@ How to use $alert.progress:
 ```js
 var progressBar = $alert.progress("body","title") // spawns bar
 progressBar.update(33) // updates the progress and title. takes an integer input 0-100.
+```
+![Results](progressbar.png)
