@@ -10,6 +10,7 @@ $notif('notif text here') //displays a notification bubble on the bottom right
 $alert('alert text here') // displays an alert message
 $alert.info('info text here') // displays an info message
 $alert.error('error text here') // displays an error message
+$alert.progress('body','text') // see example of this, there are more arguments.
 $confirm('confirm text here') // displays a question dialog
 // (you can put html in these functions)
 // there's a lot more to these functions as listed here. i plan to make a more detailed documentation of these in the future. (clue: passing objects to them and do more while writing less, as well as more features)
