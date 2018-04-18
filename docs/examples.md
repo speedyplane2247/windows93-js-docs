@@ -114,3 +114,7 @@ $explorer('a/', {browse: true, explorer: true, onclose: function(ok, file) {
   $alert(`I selected ${file}!`);
 }});
 ```
+How to use $alert.progress:
+```js
+var progressBar = $alert.progress("body","title") // spawns bar
+progressBar.update(33) // updates the progress and title. takes an integer input 0-100.
